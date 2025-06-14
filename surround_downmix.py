@@ -53,4 +53,5 @@ print(f'INPUT FILE: {name}')
 downmixing(name)
 
 # Dolby Pro Logic 6-channel -> 2-channel matrix
+# Do not use with larger files, it clogs memory
 proLogic(name)
